@@ -9,3 +9,7 @@ A live, on air podcast covering small bites of Sass every week at 12pm Pacific. 
     $ bundle install
     $ jekyll serve --watch
     $ open http://localhost:4000/
+
+## Create Posts
+
+    $ rake
