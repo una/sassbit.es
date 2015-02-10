@@ -99,7 +99,7 @@ a {
 
     &:hover,
     &:active {
-        color: $text-color;
+        color: $brand-color--secondary;
         text-decoration: underline;
     }
 }
