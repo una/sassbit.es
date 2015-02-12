@@ -24,8 +24,9 @@
 // }
 
 .site-logo {
-    max-width: 260px;
-    margin: 0 0 -4em 0;
+    max-width: 180px;
+    margin: 0 0 -4em -3em;
+    position: absolute;
 }
 
 .site-nav {
@@ -206,6 +207,7 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    color: $brand-color--secondary;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -214,6 +216,8 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    text-align: center;
+    margin-top: 1em;
 
     h2 {
         font-size: 32px;
